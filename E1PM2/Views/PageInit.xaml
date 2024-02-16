@@ -5,17 +5,16 @@
              Title="PageInit">
     <VerticalStackLayout>
         <Label 
-            Text="Welcome to .NET MAUI!"
+            Text="Site visitor App"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
 
-        <Entry x:Name="Latitude" Placeholder="Ingrese latitud" Keyboard="Numeric"/>
-
-        <Entry x:Name="Longitud" Placeholder="Ingrese Longitud" Keyboard="Numeric"/>
+        <Entry x:Name="Latitud" Placeholder="Ingrese latitud" Keyboard="Text"/>
+        <Entry x:Name="Longitud" Placeholder="Ingrese Longitud" Keyboard="Text"/>
+        <Entry x:Name="Descripcion" Placeholder="Ingrese una descripción" Keyboard="Text"/>
 
 
         <Button x:Name="btnAgregar"  Clicked="btnAgregar_Clicked"/>
-        
         <Button x:Name="btnLista"  Clicked="btnLista_Clicked"/>
         <Button x:Name="btnSalir"  Clicked="btnSalir_Clicked"/>
 
