@@ -1,5 +1,4 @@
 namespace E1PM2.Views;
-
 public partial class PageInit : ContentPage
 {
 	public PageInit()

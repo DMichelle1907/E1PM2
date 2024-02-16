@@ -13,12 +13,10 @@
 
         <Entry x:Name="Longitud" Placeholder="Ingrese Longitud" Keyboard="Numeric"/>
 
-        <Entry x:Name="Descripcion" Placeholder="Ingrese una descripción" Keyboard="Text"/>
 
         <Button x:Name="btnAgregar"  Clicked="btnAgregar_Clicked"/>
         
         <Button x:Name="btnLista"  Clicked="btnLista_Clicked"/>
-        
         <Button x:Name="btnSalir"  Clicked="btnSalir_Clicked"/>
 
     </VerticalStackLayout>
